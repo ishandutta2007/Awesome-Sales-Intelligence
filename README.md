@@ -117,7 +117,7 @@ Below is a curated comparison of category-leading Sales Intelligence and B2B Pro
 
 Below is an exhaustive ranking of all open-source sales intelligence platforms, web extractors, CRM backends, OSINT engines, and workflow automation frameworks, **strictly sorted by GitHub star count (descending)**:
 
-| Project | ⭐ Stars | 💡 Category & Key Role |
+| Project | ⭐ Github_Stars | 💡 Category & Key Role |
 | :--- | :--- | :--- |
 | **[n8n](https://github.com/n8n-io/n8n)** | [![GitHub_Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers) | **[Workflow & Automation]** Node-based workflow automation tool connecting CRM, enrichment APIs, webhooks, and email sequencers. |
 | **[ollama](https://github.com/ollama/ollama)** | [![GitHub_Stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers) | **[AI Sales Research]** Local LLM runtime for executing open-source models (Llama 3, DeepSeek, Mistral) for private prospect research. |
