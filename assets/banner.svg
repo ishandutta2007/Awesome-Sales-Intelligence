@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b19"/>
+      <stop offset="50%" stop-color="#0c152e"/>
+      <stop offset="100%" stop-color="#050813"/>
+    </linearGradient>
+
+    <linearGradient id="primaryTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.6"/>
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.75" stroke-opacity="0.4"/>
+    </pattern>
+
+    <style>
+      .beacon-ring {
+        animation: pulseRing 4s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+        transform-origin: center;
+      }
+      .signal-line {
+        stroke-dasharray: 8, 8;
+        animation: dashMove 20s linear infinite;
+      }
+      .scanner-beam {
+        animation: rotateBeam 8s linear infinite;
+        transform-origin: 1020px 210px;
+      }
+      .node-pulse {
+        animation: nodeGlow 3s ease-in-out infinite alternate;
+      }
+      @keyframes dashMove {
+        to { stroke-dashoffset: -1000; }
+      }
+      @keyframes pulseRing {
+        0% { r: 15; opacity: 0.8; }
+        50% { opacity: 0.4; }
+        100% { r: 90; opacity: 0; }
+      }
+      @keyframes rotateBeam {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes nodeGlow {
+        from { opacity: 0.6; filter: drop-shadow(0 0 2px #38bdf8); }
+        to { opacity: 1; filter: drop-shadow(0 0 10px #c084fc); }
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="420" fill="url(#bgGradient)"/>
+  <rect width="1200" height="420" fill="url(#grid)"/>
+
+  <!-- Ambient Light Orbs -->
+  <circle cx="150" cy="100" r="180" fill="#38bdf8" opacity="0.08" filter="url(#softGlow)"/>
+  <circle cx="1020" cy="210" r="190" fill="#818cf8" opacity="0.12" filter="url(#softGlow)"/>
+  <circle cx="600" cy="380" r="220" fill="#c084fc" opacity="0.06" filter="url(#softGlow)"/>
+
+  <!-- Radar / Signal Intelligence Graph (Right side) -->
+  <g opacity="0.85">
+    <circle cx="1020" cy="210" r="130" fill="none" stroke="#334155" stroke-width="1" stroke-dasharray="4,4"/>
+    <circle cx="1020" cy="210" r="95" fill="none" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.3"/>
+    <circle cx="1020" cy="210" r="60" fill="none" stroke="#818cf8" stroke-width="1.2" stroke-opacity="0.5"/>
+    <circle cx="1020" cy="210" r="25" fill="#1e1b4b" stroke="#c084fc" stroke-width="2"/>
+
+    <!-- Dynamic Radar Rings -->
+    <circle cx="1020" cy="210" r="15" fill="none" stroke="#38bdf8" stroke-width="2" class="beacon-ring">
+      <animate attributeName="r" values="15;130" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1020" cy="210" r="15" fill="none" stroke="#818cf8" stroke-width="1.5" class="beacon-ring">
+      <animate attributeName="r" values="15;130" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Radar Sweep Line -->
+    <line x1="1020" y1="210" x2="1140" y2="210" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.8" class="scanner-beam">
+      <animateTransform attributeName="transform" type="rotate" from="0 1020 210" to="360 1020 210" dur="6s" repeatCount="indefinite"/>
+    </line>
+
+    <!-- Data Signal Nodes -->
+    <g class="node-pulse">
+      <!-- Node: Contacts -->
+      <circle cx="960" cy="140" r="6" fill="#38bdf8"/>
+      <text x="945" y="125" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif" font-size="11" font-weight="600">Contacts</text>
+      <line x1="1020" y1="210" x2="960" y2="140" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4"/>
+
+      <!-- Node: Intent -->
+      <circle cx="1090" cy="130" r="7" fill="#f43f5e"/>
+      <text x="1098" y="125" fill="#fda4af" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif" font-size="11" font-weight="600">Intent</text>
+      <line x1="1020" y1="210" x2="1090" y2="130" stroke="#f43f5e" stroke-width="1" stroke-opacity="0.4"/>
+
+      <!-- Node: Company -->
+      <circle cx="1120" cy="270" r="6" fill="#10b981"/>
+      <text x="1128" y="285" fill="#6ee7b7" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif" font-size="11" font-weight="600">Enrich</text>
+      <line x1="1020" y1="210" x2="1120" y2="270" stroke="#10b981" stroke-width="1" stroke-opacity="0.4"/>
+
+      <!-- Node: Outreach -->
+      <circle cx="940" cy="280" r="6" fill="#fbbf24"/>
+      <text x="925" y="300" fill="#fde68a" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif" font-size="11" font-weight="600">Sequencing</text>
+      <line x1="1020" y1="210" x2="940" y2="280" stroke="#fbbf24" stroke-width="1" stroke-opacity="0.4"/>
+    </g>
+  </g>
+
+  <!-- Left Side Content & Branding -->
+  <g transform="translate(80, 0)">
+    <!-- Top Pill Badge -->
+    <g transform="translate(0, 70)">
+      <rect width="320" height="32" rx="16" fill="#1e293b" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.5"/>
+      <circle cx="16" cy="16" r="5" fill="#22d3ee">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="32" y="21" fill="#e2e8f0" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif" font-size="12" font-weight="600" letter-spacing="0.5">B2B SALES INTELLIGENCE ECOSYSTEM</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="165" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="46" font-weight="800" fill="url(#primaryTextGrad)" letter-spacing="-0.5" filter="url(#glow)">
+      Awesome Sales Intelligence
+    </text>
+
+    <!-- Subtitle Line 1 -->
+    <text x="0" y="215" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif" font-size="18" font-weight="500" fill="#cbd5e1" letter-spacing="0.2">
+      Curated Directory of Top SaaS Platforms &amp; Open-Source Tools
+    </text>
+
+    <!-- Subtitle Line 2 -->
+    <text x="0" y="245" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif" font-size="14" font-weight="400" fill="#94a3b8">
+      Lead Enrichment • B2B Contact Databases • Intent Signals • Prospecting • GTM Infrastructure
+    </text>
+
+    <!-- Feature Pillars Badges -->
+    <g transform="translate(0, 285)">
+      <!-- Badge 1: SaaS Scale -->
+      <rect x="0" y="0" width="160" height="36" rx="8" fill="url(#cardGrad)" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.4"/>
+      <text x="14" y="23" fill="#60a5fa" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif" font-size="13" font-weight="700">🏢 28 SaaS Platforms</text>
+
+      <!-- Badge 2: Open Source -->
+      <rect x="175" y="0" width="180" height="36" rx="8" fill="url(#cardGrad)" stroke="#10b981" stroke-width="1" stroke-opacity="0.4"/>
+      <text x="189" y="23" fill="#34d399" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif" font-size="13" font-weight="700">⚡ 65+ Open-Source Repos</text>
+
+      <!-- Badge 3: Star Ranked -->
+      <rect x="370" y="0" width="165" height="36" rx="8" fill="url(#cardGrad)" stroke="#c084fc" stroke-width="1" stroke-opacity="0.4"/>
+      <text x="384" y="23" fill="#e879f9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif" font-size="13" font-weight="700">⭐ Star-Ranked Stacks</text>
+
+      <!-- Badge 4: Free Tiers -->
+      <rect x="550" y="0" width="175" height="36" rx="8" fill="url(#cardGrad)" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.4"/>
+      <text x="564" y="23" fill="#fbbf24" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif" font-size="13" font-weight="700">🎁 Pricing &amp; Free Limits</text>
+    </g>
+
+    <!-- Bottom Status Line -->
+    <g transform="translate(0, 360)">
+      <circle cx="6" cy="6" r="4" fill="#10b981"/>
+      <text x="20" y="10" fill="#64748b" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif" font-size="12" font-weight="500">
+        Continuous Verification • Updated for 2026 • Community Curated Reference
+      </text>
+    </g>
+  </g>
+</svg>
