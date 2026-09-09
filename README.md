@@ -8,7 +8,7 @@
 
 <!-- Badges Section -->
 <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-<a href="https://github.com/ishandutta2007/Awesome-Sales-Intelligence/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Sales-Intelligence?style=for-the-badge&logo=apachespark&color=f59e0b" alt="GitHub Stars" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Sales-Intelligence/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Sales-Intelligence?style=for-the-badge&logo=apachespark&color=f59e0b" alt="GitHub_Stars" /></a>
 <a href="https://github.com/ishandutta2007/Awesome-Sales-Intelligence/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Sales-Intelligence?style=for-the-badge&color=6366f1" alt="GitHub Forks" /></a>
 <a href="https://github.com/ishandutta2007/Awesome-Sales-Intelligence/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-emerald?style=for-the-badge" alt="License" /></a>
 <a href="https://github.com/ishandutta2007/Awesome-Sales-Intelligence/pulls"><img src="https://img.shields.io/badge/PRs-Welcome-blue?style=for-the-badge" alt="PRs Welcome" /></a>
@@ -26,12 +26,12 @@
 
 Welcome to the **Awesome Sales Intelligence** repository! 🚀 In 2026, modern B2B go-to-market (GTM) strategy requires moving beyond static, stale contact lists. High-performing outbound sales teams, revenue operations (RevOps) engineers, and growth hackers rely on dynamic **waterfall enrichment**, **real-time intent signals**, **AI-assisted account research**, and **resilient self-hosted data infrastructure**.
 
-Whether you are evaluating category-leading SaaS giants (like **ZoomInfo, Apollo.io, Clay, 6sense, Cognism, and Lusha**) or building a 100% self-hosted, privacy-first alternative with open-source software (**Twenty, n8n, Firecrawl, Crawl4AI, Ollama, and OpenLeads**), this guide indexes both worlds ranked by commercial scale and GitHub stars.
+Whether you are evaluating category-leading SaaS giants (like **ZoomInfo, Apollo.io, Clay, 6sense, Cognism, and Lusha**) or building a 100% self-hosted, privacy-first alternative with open-source software (**Twenty, n8n, Firecrawl, Crawl4AI, Ollama, and OpenLeads**), this guide indexes both worlds ranked by commercial scale and GitHub_Stars.
 
 ### 🎯 Key Sales Intelligence Pillars:
 * **🎯 B2B Contact Discovery & Lead Finding:** Discovering verified corporate email addresses, direct-dial phone numbers, LinkedIn profiles, and verified decision-maker titles across target accounts.
 * **🔍 Waterfall Lead Enrichment & Data Normalization:** Cascading multi-provider APIs to enrich company firmographics (headcount, revenue, industry), technographics (installed software stack), and social profiles without vendor lock-in.
-* **📡 Intent & Buying Signal Detection:** Monitoring high-intent buying triggers including job postings, executive leadership changes, funding announcements, tech-stack migrations, GitHub stars, and anonymous website visitor IP de-anonymization.
+* **📡 Intent & Buying Signal Detection:** Monitoring high-intent buying triggers including job postings, executive leadership changes, funding announcements, tech-stack migrations, GitHub_Stars, and anonymous website visitor IP de-anonymization.
 * **🤖 AI Agentic Prospect Research:** Autonomous LLM-driven research agents that parse company websites, 10-K filings, press releases, and podcast transcripts to synthesize bespoke prospect pain points and hyper-personalized outreach angles.
 * **🔄 CRM Synchronization & Automated Outreach:** Bi-directional real-time sync into open-source or commercial CRMs with automated email cadences, deliverability warm-up, and multi-channel sequencing.
 
@@ -119,72 +119,72 @@ Below is an exhaustive ranking of all open-source sales intelligence platforms, 
 
 | Project | ⭐ Stars | 💡 Category & Key Role |
 | :--- | :--- | :--- |
-| **[n8n](https://github.com/n8n-io/n8n)** | [![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers) | **[Workflow & Automation]** Node-based workflow automation tool connecting CRM, enrichment APIs, webhooks, and email sequencers. |
-| **[ollama](https://github.com/ollama/ollama)** | [![GitHub stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers) | **[AI Sales Research]** Local LLM runtime for executing open-source models (Llama 3, DeepSeek, Mistral) for private prospect research. |
-| **[firecrawl](https://github.com/mendableai/firecrawl)** | [![GitHub stars](https://img.shields.io/github/stars/mendableai/firecrawl?style=social&color=white)](https://github.com/mendableai/firecrawl/stargazers) | **[Web & Data Extraction]** Turns entire websites into clean, LLM-ready markdown and structured data for AI prospect research. |
-| **[langchain](https://github.com/langchain-ai/langchain)** | [![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white)](https://github.com/langchain-ai/langchain/stargazers) | **[AI Sales Research]** Industry-standard framework for building autonomous sales research agents and structured data extractors. |
-| **[browser-use](https://github.com/browser-use/browser-use)** | [![GitHub stars](https://img.shields.io/github/stars/browser-use/browser-use?style=social&color=white)](https://github.com/browser-use/browser-use/stargazers) | **[Web & Data Extraction]** Autonomous AI browser agent that interacts with websites, fills forms, and extracts lead data. |
-| **[playwright](https://github.com/microsoft/playwright)** | [![GitHub stars](https://img.shields.io/github/stars/microsoft/playwright?style=social&color=white)](https://github.com/microsoft/playwright/stargazers) | **[Web & Data Extraction]** Reliable cross-browser automation library for scraping dynamic JavaScript-heavy sites and web portals. |
-| **[puppeteer](https://github.com/puppeteer/puppeteer)** | [![GitHub stars](https://img.shields.io/github/stars/puppeteer/puppeteer?style=social&color=white)](https://github.com/puppeteer/puppeteer/stargazers) | **[Web & Data Extraction]** Node.js library providing high-level Chrome automation for headless scraping and screenshot generation. |
-| **[vllm](https://github.com/vllm-project/vllm)** | [![GitHub stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers) | **[AI Sales Research]** High-throughput, low-latency LLM serving engine for large-scale batch account scoring and ICP qualification. |
-| **[sherlock](https://github.com/sherlock-project/sherlock)** | [![GitHub stars](https://img.shields.io/github/stars/sherlock-project/sherlock?style=social&color=white)](https://github.com/sherlock-project/sherlock/stargazers) | **[OSINT & Contact Finding]** Hunt down social media accounts by username across 400+ platforms for founder intelligence. |
-| **[crawl4ai](https://github.com/unclecode/crawl4ai)** | [![GitHub stars](https://img.shields.io/github/stars/unclecode/crawl4ai?style=social&color=white)](https://github.com/unclecode/crawl4ai/stargazers) | **[Web & Data Extraction]** High-performance open-source LLM crawler tailored for AI data extraction and page chunking. |
-| **[redis](https://github.com/redis/redis)** | [![GitHub stars](https://img.shields.io/github/stars/redis/redis?style=social&color=white)](https://github.com/redis/redis/stargazers) | **[Data Infrastructure]** Ultra-fast in-memory data store for lead deduplication, queue management, and API rate-limiting caches. |
-| **[nocodb](https://github.com/nocodb/nocodb)** | [![GitHub stars](https://img.shields.io/github/stars/nocodb/nocodb?style=social&color=white)](https://github.com/nocodb/nocodb/stargazers) | **[CRM & Pipeline DB]** Open-source Airtable alternative transforming any relational database into a visual lead spreadsheet. |
-| **[scrapy](https://github.com/scrapy/scrapy)** | [![GitHub stars](https://img.shields.io/github/stars/scrapy/scrapy?style=social&color=white)](https://github.com/scrapy/scrapy/stargazers) | **[Web & Data Extraction]** Fast, extensible high-level web crawling framework for extracting structured B2B lead datasets. |
-| **[minio](https://github.com/minio/minio)** | [![GitHub stars](https://img.shields.io/github/stars/minio/minio?style=social&color=white)](https://github.com/minio/minio/stargazers) | **[Data Infrastructure]** High-performance S3-compatible object storage for company logos, page snapshots, and scraped HTML files. |
-| **[crewAI](https://github.com/crewAIInc/crewAI)** | [![GitHub stars](https://img.shields.io/github/stars/crewAIInc/crewAI?style=social&color=white)](https://github.com/crewAIInc/crewAI/stargazers) | **[AI Sales Research]** Multi-agent framework for orchestrating autonomous crews of SDR, researcher, and copywriter agents. |
-| **[twenty](https://github.com/twentyhq/twenty)** | [![GitHub stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers) | **[CRM & Pipeline DB]** Modern open-source CRM alternative to Salesforce, featuring GraphQL APIs, modern UI, and self-hosted control. |
-| **[odoo](https://github.com/odoo/odoo)** | [![GitHub stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) | **[CRM & Pipeline DB]** Comprehensive suite of open-source business apps including sales CRM, lead pipelines, and invoicing. |
-| **[llama_index](https://github.com/run-llama/llama_index)** | [![GitHub stars](https://img.shields.io/github/stars/run-llama/llama_index?style=social&color=white)](https://github.com/run-llama/llama_index/stargazers) | **[AI Sales Research]** Data framework for connecting private company datasets and knowledge bases to LLM query pipelines. |
-| **[ClickHouse](https://github.com/ClickHouse/ClickHouse)** | [![GitHub stars](https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=social&color=white)](https://github.com/ClickHouse/ClickHouse/stargazers) | **[Data Infrastructure]** High-performance columnar database for real-time analytics on web visitor events and intent logs. |
-| **[spark](https://github.com/apache/spark)** | [![GitHub stars](https://img.shields.io/github/stars/apache/spark?style=social&color=white)](https://github.com/apache/spark/stargazers) | **[Data Infrastructure]** Distributed analytics engine for large-scale data transformation across millions of B2B contact records. |
-| **[duckdb](https://github.com/duckdb/duckdb)** | [![GitHub stars](https://img.shields.io/github/stars/duckdb/duckdb?style=social&color=white)](https://github.com/duckdb/duckdb/stargazers) | **[Data Infrastructure]** In-process SQL OLAP database ideal for fast local querying and transformation of CSV/Parquet lead dumps. |
-| **[novu](https://github.com/novuhq/novu)** | [![GitHub stars](https://img.shields.io/github/stars/novuhq/novu?style=social&color=white)](https://github.com/novuhq/novu/stargazers) | **[Email & Notification]** Notification and workflow delivery infrastructure for multi-channel sales communication and alerts. |
-| **[erpnext](https://github.com/frappe/erpnext)** | [![GitHub stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers) | **[CRM & Pipeline DB]** Full-featured open-source ERP and CRM system for enterprise sales operations and customer lifecycle. |
-| **[maigret](https://github.com/soxoj/maigret)** | [![GitHub stars](https://img.shields.io/github/stars/soxoj/maigret?style=social&color=white)](https://github.com/soxoj/maigret/stargazers) | **[OSINT & Contact Finding]** Collect detailed person dossiers across 3,000+ public sites and networks via username queries. |
-| **[searxng](https://github.com/searxng/searxng)** | [![GitHub stars](https://img.shields.io/github/stars/searxng/searxng?style=social&color=white)](https://github.com/searxng/searxng/stargazers) | **[OSINT & Contact Finding]** Privacy-respecting metasearch engine combining results from 70+ search engines for OSINT research. |
-| **[selenium](https://github.com/SeleniumHQ/selenium)** | [![GitHub stars](https://img.shields.io/github/stars/SeleniumHQ/selenium?style=social&color=white)](https://github.com/SeleniumHQ/selenium/stargazers) | **[Web & Data Extraction]** Industry-standard browser automation framework for legacy web applications and UI testing. |
-| **[kafka](https://github.com/apache/kafka)** | [![GitHub stars](https://img.shields.io/github/stars/apache/kafka?style=social&color=white)](https://github.com/apache/kafka/stargazers) | **[Data Infrastructure]** Distributed event streaming platform for ingesting high-volume intent signals and webhook events. |
-| **[kestra](https://github.com/kestra-io/kestra)** | [![GitHub stars](https://img.shields.io/github/stars/kestra-io/kestra?style=social&color=white)](https://github.com/kestra-io/kestra/stargazers) | **[Workflow & Automation]** Declarative, event-driven orchestrator for scheduled lead extraction and CRM sync DAGs. |
-| **[haystack](https://github.com/deepset-ai/haystack)** | [![GitHub stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=social&color=white)](https://github.com/deepset-ai/haystack/stargazers) | **[AI Sales Research]** End-to-end framework for building custom search systems, RAG, and document Q&A for account intelligence. |
-| **[crawlee](https://github.com/apify/crawlee)** | [![GitHub stars](https://img.shields.io/github/stars/apify/crawlee?style=social&color=white)](https://github.com/apify/crawlee/stargazers) | **[Web & Data Extraction]** Scalable web scraping library for Node.js with built-in proxy rotation and anti-blocking. |
-| **[monica](https://github.com/monicahq/monica)** | [![GitHub stars](https://img.shields.io/github/stars/monicahq/monica?style=social&color=white)](https://github.com/monicahq/monica/stargazers) | **[CRM & Pipeline DB]** Personal relationship management tool designed for keeping track of key prospect interactions and context. |
-| **[node-red](https://github.com/node-red/node-red)** | [![GitHub stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers) | **[Workflow & Automation]** Low-code visual event-driven flow editor for rapid webhook processing and API integrations. |
-| **[listmonk](https://github.com/knadh/listmonk)** | [![GitHub stars](https://img.shields.io/github/stars/knadh/listmonk?style=social&color=white)](https://github.com/knadh/listmonk/stargazers) | **[Email & Notification]** Blazing fast self-hosted newsletter and mailing list manager with multi-threaded SMTP workers. |
-| **[temporal](https://github.com/temporalio/temporal)** | [![GitHub stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers) | **[Workflow & Automation]** Microservice orchestration platform for long-running reliable outbound campaigns and sync workflows. |
-| **[postgres](https://github.com/postgres/postgres)** | [![GitHub stars](https://img.shields.io/github/stars/postgres/postgres?style=social&color=white)](https://github.com/postgres/postgres/stargazers) | **[Data Infrastructure]** The world's most advanced relational database, perfect for CRM backends and transactional data. |
-| **[spiderfoot](https://github.com/smicallef/spiderfoot)** | [![GitHub stars](https://img.shields.io/github/stars/smicallef/spiderfoot?style=social&color=white)](https://github.com/smicallef/spiderfoot/stargazers) | **[OSINT & Contact Finding]** Automated OSINT intelligence gathering tool querying over 100 public data sources. |
-| **[GHunt](https://github.com/mxrch/GHunt)** | [![GitHub stars](https://img.shields.io/github/stars/mxrch/GHunt?style=social&color=white)](https://github.com/mxrch/GHunt/stargazers) | **[OSINT & Contact Finding]** Modular OSINT tool for investigating Google accounts, email addresses, and associated services. |
-| **[windmill](https://github.com/windmill-labs/windmill)** | [![GitHub stars](https://img.shields.io/github/stars/windmill-labs/windmill?style=social&color=white)](https://github.com/windmill-labs/windmill/stargazers) | **[Workflow & Automation]** Developer-first alternative to Retool and Temporal for internal sales tools, scripts, and workflows. |
-| **[phoneinfoga](https://github.com/sundowndev/phoneinfoga)** | [![GitHub stars](https://img.shields.io/github/stars/sundowndev/phoneinfoga?style=social&color=white)](https://github.com/sundowndev/phoneinfoga/stargazers) | **[OSINT & Contact Finding]** Advanced information gathering and reconnaissance framework for international phone numbers. |
-| **[theHarvester](https://github.com/laramies/theHarvester)** | [![GitHub stars](https://img.shields.io/github/stars/laramies/theHarvester?style=social&color=white)](https://github.com/laramies/theHarvester/stargazers) | **[OSINT & Contact Finding]** E-mail, subdomain and employee name harvester for OSINT gathering on target companies. |
-| **[postal](https://github.com/postalserver/postal)** | [![GitHub stars](https://img.shields.io/github/stars/postalserver/postal?style=social&color=white)](https://github.com/postalserver/postal/stargazers) | **[Email & Notification]** Self-hosted transactional mail delivery platform (SendGrid/Mailgun alternative) with DKIM/SPF support. |
-| **[newspaper](https://github.com/codelucas/newspaper)** | [![GitHub stars](https://img.shields.io/github/stars/codelucas/newspaper?style=social&color=white)](https://github.com/codelucas/newspaper/stargazers) | **[Web & Data Extraction]** News, full-text, and article extraction library in Python for company press releases and funding news. |
-| **[holehe](https://github.com/megadose/holehe)** | [![GitHub stars](https://img.shields.io/github/stars/megadose/holehe?style=social&color=white)](https://github.com/megadose/holehe/stargazers) | **[OSINT & Contact Finding]** Check email registration across 120+ sites without notifying the recipient. |
-| **[OpenSearch](https://github.com/opensearch-project/OpenSearch)** | [![GitHub stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers) | **[Data Infrastructure]** Distributed search and analytics engine for full-text search across millions of B2B profiles. |
-| **[mautic](https://github.com/mautic/mautic)** | [![GitHub stars](https://img.shields.io/github/stars/mautic/mautic?style=social&color=white)](https://github.com/mautic/mautic/stargazers) | **[Email & Notification]** World-leading open-source marketing automation platform with visual cadences and lead scoring. |
-| **[mailpit](https://github.com/axllent/mailpit)** | [![GitHub stars](https://img.shields.io/github/stars/axllent/mailpit?style=social&color=white)](https://github.com/axllent/mailpit/stargazers) | **[Email & Notification]** Modern email and SMTP testing tool for local sandbox email previewing and spam scoring. |
-| **[dolibarr](https://github.com/Dolibarr/dolibarr)** | [![GitHub stars](https://img.shields.io/github/stars/Dolibarr/dolibarr?style=social&color=white)](https://github.com/Dolibarr/dolibarr/stargazers) | **[CRM & Pipeline DB]** Open-source ERP and CRM suite for managing quotes, customer contacts, and prospect tracking. |
-| **[trafilatura](https://github.com/adbar/trafilatura)** | [![GitHub stars](https://img.shields.io/github/stars/adbar/trafilatura?style=social&color=white)](https://github.com/adbar/trafilatura/stargazers) | **[Web & Data Extraction]** Python library and CLI for text discovery, metadata extraction, and HTML-to-text conversion. |
-| **[recon-ng](https://github.com/lanmaster53/recon-ng)** | [![GitHub stars](https://img.shields.io/github/stars/lanmaster53/recon-ng?style=social&color=white)](https://github.com/lanmaster53/recon-ng/stargazers) | **[OSINT & Contact Finding]** Full-featured reconnaissance framework with modular OSINT tools for target domains. |
-| **[SuiteCRM](https://github.com/SuiteCRM/SuiteCRM)** | [![GitHub stars](https://img.shields.io/github/stars/SuiteCRM/SuiteCRM?style=social&color=white)](https://github.com/SuiteCRM/SuiteCRM/stargazers) | **[CRM & Pipeline DB]** Open-source enterprise CRM alternative to SugarCRM and Salesforce. |
-| **[crm](https://github.com/frappe/crm)** | [![GitHub stars](https://img.shields.io/github/stars/frappe/crm?style=social&color=white)](https://github.com/frappe/crm/stargazers) | **[CRM & Pipeline DB]** Modern, lightweight open-source CRM built on the Frappe framework for sales teams. |
-| **[espocrm](https://github.com/espocrm/espocrm)** | [![GitHub stars](https://img.shields.io/github/stars/espocrm/espocrm?style=social&color=white)](https://github.com/espocrm/espocrm/stargazers) | **[CRM & Pipeline DB]** Open-source CRM web application with customizable entities, email integration, and lead pipelines. |
-| **[mailchecker](https://github.com/FGRibreau/mailchecker)** | [![GitHub stars](https://img.shields.io/github/stars/FGRibreau/mailchecker?style=social&color=white)](https://github.com/FGRibreau/mailchecker/stargazers) | **[Email Verification]** Cross-language temporary, disposable, and throwaway domain email detection library. |
-| **[python-email-validator](https://github.com/JoshData/python-email-validator)** | [![GitHub stars](https://img.shields.io/github/stars/JoshData/python-email-validator?style=social&color=white)](https://github.com/JoshData/python-email-validator/stargazers) | **[Email Verification]** Robust email address syntax and DNS deliverability validation library in Python. |
-| **[apify-cli](https://github.com/apify/apify-cli)** | [![GitHub stars](https://img.shields.io/github/stars/apify/apify-cli?style=social&color=white)](https://github.com/apify/apify-cli/stargazers) | **[Web & Data Extraction]** Command-line interface for the Apify platform and Actors. |
-| **[BeautifulSoup4](https://github.com/wention/BeautifulSoup4)** | [![GitHub stars](https://img.shields.io/github/stars/wention/BeautifulSoup4?style=social&color=white)](https://github.com/wention/BeautifulSoup4/stargazers) | **[Web & Data Extraction]** Python library for parsing HTML and XML documents, ideal for simple lead scraping. |
-| **[opengtm](https://github.com/buildingopen/opengtm)** | [![GitHub stars](https://img.shields.io/github/stars/buildingopen/opengtm?style=social&color=white)](https://github.com/buildingopen/opengtm/stargazers) | **[Sales Intelligence]** MIT-licensed open-source GTM platform combining lead discovery, AI research, and CRM sync. |
-| **[keelead](https://github.com/Atum246/keelead)** | [![GitHub stars](https://img.shields.io/github/stars/Atum246/keelead?style=social&color=white)](https://github.com/Atum246/keelead/stargazers) | **[Sales Intelligence]** AI-powered lead-generation platform aggregating 62 public and premium data sources with MCP support. |
-| **[openleads](https://github.com/Samyrrrrrr990/openleads)** | [![GitHub stars](https://img.shields.io/github/stars/Samyrrrrrr990/openleads?style=social&color=white)](https://github.com/Samyrrrrrr990/openleads/stargazers) | **[Sales Intelligence]** Open-source Apollo/Hunter alternative using natural language search across public sources. |
-| **[OpenProspector](https://github.com/clawnify/OpenProspector)** | [![GitHub stars](https://img.shields.io/github/stars/clawnify/OpenProspector?style=social&color=white)](https://github.com/clawnify/OpenProspector/stargazers) | **[Lead Enrichment]** Open-source Clay-style multi-provider lead enrichment layer using personal API keys. |
-| **[lead-pipeline](https://github.com/AI-Invention/lead-pipeline)** | [![GitHub stars](https://img.shields.io/github/stars/AI-Invention/lead-pipeline?style=social&color=white)](https://github.com/AI-Invention/lead-pipeline/stargazers) | **[Sales Pipeline]** MIT-licensed automated sales pipeline with Google Maps scraper, Sheets CRM, and outreach. |
-| **[lodgely](https://github.com/vidual-labs/lodgely)** | [![GitHub stars](https://img.shields.io/github/stars/vidual-labs/lodgely?style=social&color=white)](https://github.com/vidual-labs/lodgely/stargazers) | **[Lead Discovery]** Open-source lead generation engine tailored for hospitality and short-term rental properties. |
-| **[lead-research-agent](https://github.com/mcvalosborne/lead-research-agent)** | [![GitHub stars](https://img.shields.io/github/stars/mcvalosborne/lead-research-agent?style=social&color=white)](https://github.com/mcvalosborne/lead-research-agent/stargazers) | **[AI Sales Research]** Autonomous AI research agent that queries web sources, extracts data, and populates CRM. |
-| **[salesIQ-intelligence-community](https://github.com/SalesIQ/salesIQ-intelligence-community)** | [![GitHub stars](https://img.shields.io/github/stars/SalesIQ/salesIQ-intelligence-community?style=social&color=white)](https://github.com/SalesIQ/salesIQ-intelligence-community/stargazers) | **[Sales Intelligence]** AGPLv3 AI-powered B2B sales intelligence platform with ICP scoring, AI research, and outreach. |
-| **[ai-sales-lead-enrichment-crm-pipeline](https://github.com/Supreme-jay/ai-sales-lead-enrichment-crm-pipeline)** | [![GitHub stars](https://img.shields.io/github/stars/Supreme-jay/ai-sales-lead-enrichment-crm-pipeline?style=social&color=white)](https://github.com/Supreme-jay/ai-sales-lead-enrichment-crm-pipeline/stargazers) | **[Sales Pipeline]** n8n-based AI sales lead intake, company research, and CRM sync workflow. |
-| **[leadgen](https://github.com/Dukotah/leadgen)** | [![GitHub stars](https://img.shields.io/github/stars/Dukotah/leadgen?style=social&color=white)](https://github.com/Dukotah/leadgen/stargazers) | **[Lead Discovery]** Python-based lead generation script for automating localized prospect searches. |
+| **[n8n](https://github.com/n8n-io/n8n)** | [![GitHub_Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers) | **[Workflow & Automation]** Node-based workflow automation tool connecting CRM, enrichment APIs, webhooks, and email sequencers. |
+| **[ollama](https://github.com/ollama/ollama)** | [![GitHub_Stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers) | **[AI Sales Research]** Local LLM runtime for executing open-source models (Llama 3, DeepSeek, Mistral) for private prospect research. |
+| **[firecrawl](https://github.com/mendableai/firecrawl)** | [![GitHub_Stars](https://img.shields.io/github/stars/mendableai/firecrawl?style=social&color=white)](https://github.com/mendableai/firecrawl/stargazers) | **[Web & Data Extraction]** Turns entire websites into clean, LLM-ready markdown and structured data for AI prospect research. |
+| **[langchain](https://github.com/langchain-ai/langchain)** | [![GitHub_Stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white)](https://github.com/langchain-ai/langchain/stargazers) | **[AI Sales Research]** Industry-standard framework for building autonomous sales research agents and structured data extractors. |
+| **[browser-use](https://github.com/browser-use/browser-use)** | [![GitHub_Stars](https://img.shields.io/github/stars/browser-use/browser-use?style=social&color=white)](https://github.com/browser-use/browser-use/stargazers) | **[Web & Data Extraction]** Autonomous AI browser agent that interacts with websites, fills forms, and extracts lead data. |
+| **[playwright](https://github.com/microsoft/playwright)** | [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/playwright?style=social&color=white)](https://github.com/microsoft/playwright/stargazers) | **[Web & Data Extraction]** Reliable cross-browser automation library for scraping dynamic JavaScript-heavy sites and web portals. |
+| **[puppeteer](https://github.com/puppeteer/puppeteer)** | [![GitHub_Stars](https://img.shields.io/github/stars/puppeteer/puppeteer?style=social&color=white)](https://github.com/puppeteer/puppeteer/stargazers) | **[Web & Data Extraction]** Node.js library providing high-level Chrome automation for headless scraping and screenshot generation. |
+| **[vllm](https://github.com/vllm-project/vllm)** | [![GitHub_Stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers) | **[AI Sales Research]** High-throughput, low-latency LLM serving engine for large-scale batch account scoring and ICP qualification. |
+| **[sherlock](https://github.com/sherlock-project/sherlock)** | [![GitHub_Stars](https://img.shields.io/github/stars/sherlock-project/sherlock?style=social&color=white)](https://github.com/sherlock-project/sherlock/stargazers) | **[OSINT & Contact Finding]** Hunt down social media accounts by username across 400+ platforms for founder intelligence. |
+| **[crawl4ai](https://github.com/unclecode/crawl4ai)** | [![GitHub_Stars](https://img.shields.io/github/stars/unclecode/crawl4ai?style=social&color=white)](https://github.com/unclecode/crawl4ai/stargazers) | **[Web & Data Extraction]** High-performance open-source LLM crawler tailored for AI data extraction and page chunking. |
+| **[redis](https://github.com/redis/redis)** | [![GitHub_Stars](https://img.shields.io/github/stars/redis/redis?style=social&color=white)](https://github.com/redis/redis/stargazers) | **[Data Infrastructure]** Ultra-fast in-memory data store for lead deduplication, queue management, and API rate-limiting caches. |
+| **[nocodb](https://github.com/nocodb/nocodb)** | [![GitHub_Stars](https://img.shields.io/github/stars/nocodb/nocodb?style=social&color=white)](https://github.com/nocodb/nocodb/stargazers) | **[CRM & Pipeline DB]** Open-source Airtable alternative transforming any relational database into a visual lead spreadsheet. |
+| **[scrapy](https://github.com/scrapy/scrapy)** | [![GitHub_Stars](https://img.shields.io/github/stars/scrapy/scrapy?style=social&color=white)](https://github.com/scrapy/scrapy/stargazers) | **[Web & Data Extraction]** Fast, extensible high-level web crawling framework for extracting structured B2B lead datasets. |
+| **[minio](https://github.com/minio/minio)** | [![GitHub_Stars](https://img.shields.io/github/stars/minio/minio?style=social&color=white)](https://github.com/minio/minio/stargazers) | **[Data Infrastructure]** High-performance S3-compatible object storage for company logos, page snapshots, and scraped HTML files. |
+| **[crewAI](https://github.com/crewAIInc/crewAI)** | [![GitHub_Stars](https://img.shields.io/github/stars/crewAIInc/crewAI?style=social&color=white)](https://github.com/crewAIInc/crewAI/stargazers) | **[AI Sales Research]** Multi-agent framework for orchestrating autonomous crews of SDR, researcher, and copywriter agents. |
+| **[twenty](https://github.com/twentyhq/twenty)** | [![GitHub_Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers) | **[CRM & Pipeline DB]** Modern open-source CRM alternative to Salesforce, featuring GraphQL APIs, modern UI, and self-hosted control. |
+| **[odoo](https://github.com/odoo/odoo)** | [![GitHub_Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) | **[CRM & Pipeline DB]** Comprehensive suite of open-source business apps including sales CRM, lead pipelines, and invoicing. |
+| **[llama_index](https://github.com/run-llama/llama_index)** | [![GitHub_Stars](https://img.shields.io/github/stars/run-llama/llama_index?style=social&color=white)](https://github.com/run-llama/llama_index/stargazers) | **[AI Sales Research]** Data framework for connecting private company datasets and knowledge bases to LLM query pipelines. |
+| **[ClickHouse](https://github.com/ClickHouse/ClickHouse)** | [![GitHub_Stars](https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=social&color=white)](https://github.com/ClickHouse/ClickHouse/stargazers) | **[Data Infrastructure]** High-performance columnar database for real-time analytics on web visitor events and intent logs. |
+| **[spark](https://github.com/apache/spark)** | [![GitHub_Stars](https://img.shields.io/github/stars/apache/spark?style=social&color=white)](https://github.com/apache/spark/stargazers) | **[Data Infrastructure]** Distributed analytics engine for large-scale data transformation across millions of B2B contact records. |
+| **[duckdb](https://github.com/duckdb/duckdb)** | [![GitHub_Stars](https://img.shields.io/github/stars/duckdb/duckdb?style=social&color=white)](https://github.com/duckdb/duckdb/stargazers) | **[Data Infrastructure]** In-process SQL OLAP database ideal for fast local querying and transformation of CSV/Parquet lead dumps. |
+| **[novu](https://github.com/novuhq/novu)** | [![GitHub_Stars](https://img.shields.io/github/stars/novuhq/novu?style=social&color=white)](https://github.com/novuhq/novu/stargazers) | **[Email & Notification]** Notification and workflow delivery infrastructure for multi-channel sales communication and alerts. |
+| **[erpnext](https://github.com/frappe/erpnext)** | [![GitHub_Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers) | **[CRM & Pipeline DB]** Full-featured open-source ERP and CRM system for enterprise sales operations and customer lifecycle. |
+| **[maigret](https://github.com/soxoj/maigret)** | [![GitHub_Stars](https://img.shields.io/github/stars/soxoj/maigret?style=social&color=white)](https://github.com/soxoj/maigret/stargazers) | **[OSINT & Contact Finding]** Collect detailed person dossiers across 3,000+ public sites and networks via username queries. |
+| **[searxng](https://github.com/searxng/searxng)** | [![GitHub_Stars](https://img.shields.io/github/stars/searxng/searxng?style=social&color=white)](https://github.com/searxng/searxng/stargazers) | **[OSINT & Contact Finding]** Privacy-respecting metasearch engine combining results from 70+ search engines for OSINT research. |
+| **[selenium](https://github.com/SeleniumHQ/selenium)** | [![GitHub_Stars](https://img.shields.io/github/stars/SeleniumHQ/selenium?style=social&color=white)](https://github.com/SeleniumHQ/selenium/stargazers) | **[Web & Data Extraction]** Industry-standard browser automation framework for legacy web applications and UI testing. |
+| **[kafka](https://github.com/apache/kafka)** | [![GitHub_Stars](https://img.shields.io/github/stars/apache/kafka?style=social&color=white)](https://github.com/apache/kafka/stargazers) | **[Data Infrastructure]** Distributed event streaming platform for ingesting high-volume intent signals and webhook events. |
+| **[kestra](https://github.com/kestra-io/kestra)** | [![GitHub_Stars](https://img.shields.io/github/stars/kestra-io/kestra?style=social&color=white)](https://github.com/kestra-io/kestra/stargazers) | **[Workflow & Automation]** Declarative, event-driven orchestrator for scheduled lead extraction and CRM sync DAGs. |
+| **[haystack](https://github.com/deepset-ai/haystack)** | [![GitHub_Stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=social&color=white)](https://github.com/deepset-ai/haystack/stargazers) | **[AI Sales Research]** End-to-end framework for building custom search systems, RAG, and document Q&A for account intelligence. |
+| **[crawlee](https://github.com/apify/crawlee)** | [![GitHub_Stars](https://img.shields.io/github/stars/apify/crawlee?style=social&color=white)](https://github.com/apify/crawlee/stargazers) | **[Web & Data Extraction]** Scalable web scraping library for Node.js with built-in proxy rotation and anti-blocking. |
+| **[monica](https://github.com/monicahq/monica)** | [![GitHub_Stars](https://img.shields.io/github/stars/monicahq/monica?style=social&color=white)](https://github.com/monicahq/monica/stargazers) | **[CRM & Pipeline DB]** Personal relationship management tool designed for keeping track of key prospect interactions and context. |
+| **[node-red](https://github.com/node-red/node-red)** | [![GitHub_Stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers) | **[Workflow & Automation]** Low-code visual event-driven flow editor for rapid webhook processing and API integrations. |
+| **[listmonk](https://github.com/knadh/listmonk)** | [![GitHub_Stars](https://img.shields.io/github/stars/knadh/listmonk?style=social&color=white)](https://github.com/knadh/listmonk/stargazers) | **[Email & Notification]** Blazing fast self-hosted newsletter and mailing list manager with multi-threaded SMTP workers. |
+| **[temporal](https://github.com/temporalio/temporal)** | [![GitHub_Stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers) | **[Workflow & Automation]** Microservice orchestration platform for long-running reliable outbound campaigns and sync workflows. |
+| **[postgres](https://github.com/postgres/postgres)** | [![GitHub_Stars](https://img.shields.io/github/stars/postgres/postgres?style=social&color=white)](https://github.com/postgres/postgres/stargazers) | **[Data Infrastructure]** The world's most advanced relational database, perfect for CRM backends and transactional data. |
+| **[spiderfoot](https://github.com/smicallef/spiderfoot)** | [![GitHub_Stars](https://img.shields.io/github/stars/smicallef/spiderfoot?style=social&color=white)](https://github.com/smicallef/spiderfoot/stargazers) | **[OSINT & Contact Finding]** Automated OSINT intelligence gathering tool querying over 100 public data sources. |
+| **[GHunt](https://github.com/mxrch/GHunt)** | [![GitHub_Stars](https://img.shields.io/github/stars/mxrch/GHunt?style=social&color=white)](https://github.com/mxrch/GHunt/stargazers) | **[OSINT & Contact Finding]** Modular OSINT tool for investigating Google accounts, email addresses, and associated services. |
+| **[windmill](https://github.com/windmill-labs/windmill)** | [![GitHub_Stars](https://img.shields.io/github/stars/windmill-labs/windmill?style=social&color=white)](https://github.com/windmill-labs/windmill/stargazers) | **[Workflow & Automation]** Developer-first alternative to Retool and Temporal for internal sales tools, scripts, and workflows. |
+| **[phoneinfoga](https://github.com/sundowndev/phoneinfoga)** | [![GitHub_Stars](https://img.shields.io/github/stars/sundowndev/phoneinfoga?style=social&color=white)](https://github.com/sundowndev/phoneinfoga/stargazers) | **[OSINT & Contact Finding]** Advanced information gathering and reconnaissance framework for international phone numbers. |
+| **[theHarvester](https://github.com/laramies/theHarvester)** | [![GitHub_Stars](https://img.shields.io/github/stars/laramies/theHarvester?style=social&color=white)](https://github.com/laramies/theHarvester/stargazers) | **[OSINT & Contact Finding]** E-mail, subdomain and employee name harvester for OSINT gathering on target companies. |
+| **[postal](https://github.com/postalserver/postal)** | [![GitHub_Stars](https://img.shields.io/github/stars/postalserver/postal?style=social&color=white)](https://github.com/postalserver/postal/stargazers) | **[Email & Notification]** Self-hosted transactional mail delivery platform (SendGrid/Mailgun alternative) with DKIM/SPF support. |
+| **[newspaper](https://github.com/codelucas/newspaper)** | [![GitHub_Stars](https://img.shields.io/github/stars/codelucas/newspaper?style=social&color=white)](https://github.com/codelucas/newspaper/stargazers) | **[Web & Data Extraction]** News, full-text, and article extraction library in Python for company press releases and funding news. |
+| **[holehe](https://github.com/megadose/holehe)** | [![GitHub_Stars](https://img.shields.io/github/stars/megadose/holehe?style=social&color=white)](https://github.com/megadose/holehe/stargazers) | **[OSINT & Contact Finding]** Check email registration across 120+ sites without notifying the recipient. |
+| **[OpenSearch](https://github.com/opensearch-project/OpenSearch)** | [![GitHub_Stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers) | **[Data Infrastructure]** Distributed search and analytics engine for full-text search across millions of B2B profiles. |
+| **[mautic](https://github.com/mautic/mautic)** | [![GitHub_Stars](https://img.shields.io/github/stars/mautic/mautic?style=social&color=white)](https://github.com/mautic/mautic/stargazers) | **[Email & Notification]** World-leading open-source marketing automation platform with visual cadences and lead scoring. |
+| **[mailpit](https://github.com/axllent/mailpit)** | [![GitHub_Stars](https://img.shields.io/github/stars/axllent/mailpit?style=social&color=white)](https://github.com/axllent/mailpit/stargazers) | **[Email & Notification]** Modern email and SMTP testing tool for local sandbox email previewing and spam scoring. |
+| **[dolibarr](https://github.com/Dolibarr/dolibarr)** | [![GitHub_Stars](https://img.shields.io/github/stars/Dolibarr/dolibarr?style=social&color=white)](https://github.com/Dolibarr/dolibarr/stargazers) | **[CRM & Pipeline DB]** Open-source ERP and CRM suite for managing quotes, customer contacts, and prospect tracking. |
+| **[trafilatura](https://github.com/adbar/trafilatura)** | [![GitHub_Stars](https://img.shields.io/github/stars/adbar/trafilatura?style=social&color=white)](https://github.com/adbar/trafilatura/stargazers) | **[Web & Data Extraction]** Python library and CLI for text discovery, metadata extraction, and HTML-to-text conversion. |
+| **[recon-ng](https://github.com/lanmaster53/recon-ng)** | [![GitHub_Stars](https://img.shields.io/github/stars/lanmaster53/recon-ng?style=social&color=white)](https://github.com/lanmaster53/recon-ng/stargazers) | **[OSINT & Contact Finding]** Full-featured reconnaissance framework with modular OSINT tools for target domains. |
+| **[SuiteCRM](https://github.com/SuiteCRM/SuiteCRM)** | [![GitHub_Stars](https://img.shields.io/github/stars/SuiteCRM/SuiteCRM?style=social&color=white)](https://github.com/SuiteCRM/SuiteCRM/stargazers) | **[CRM & Pipeline DB]** Open-source enterprise CRM alternative to SugarCRM and Salesforce. |
+| **[crm](https://github.com/frappe/crm)** | [![GitHub_Stars](https://img.shields.io/github/stars/frappe/crm?style=social&color=white)](https://github.com/frappe/crm/stargazers) | **[CRM & Pipeline DB]** Modern, lightweight open-source CRM built on the Frappe framework for sales teams. |
+| **[espocrm](https://github.com/espocrm/espocrm)** | [![GitHub_Stars](https://img.shields.io/github/stars/espocrm/espocrm?style=social&color=white)](https://github.com/espocrm/espocrm/stargazers) | **[CRM & Pipeline DB]** Open-source CRM web application with customizable entities, email integration, and lead pipelines. |
+| **[mailchecker](https://github.com/FGRibreau/mailchecker)** | [![GitHub_Stars](https://img.shields.io/github/stars/FGRibreau/mailchecker?style=social&color=white)](https://github.com/FGRibreau/mailchecker/stargazers) | **[Email Verification]** Cross-language temporary, disposable, and throwaway domain email detection library. |
+| **[python-email-validator](https://github.com/JoshData/python-email-validator)** | [![GitHub_Stars](https://img.shields.io/github/stars/JoshData/python-email-validator?style=social&color=white)](https://github.com/JoshData/python-email-validator/stargazers) | **[Email Verification]** Robust email address syntax and DNS deliverability validation library in Python. |
+| **[apify-cli](https://github.com/apify/apify-cli)** | [![GitHub_Stars](https://img.shields.io/github/stars/apify/apify-cli?style=social&color=white)](https://github.com/apify/apify-cli/stargazers) | **[Web & Data Extraction]** Command-line interface for the Apify platform and Actors. |
+| **[BeautifulSoup4](https://github.com/wention/BeautifulSoup4)** | [![GitHub_Stars](https://img.shields.io/github/stars/wention/BeautifulSoup4?style=social&color=white)](https://github.com/wention/BeautifulSoup4/stargazers) | **[Web & Data Extraction]** Python library for parsing HTML and XML documents, ideal for simple lead scraping. |
+| **[opengtm](https://github.com/buildingopen/opengtm)** | [![GitHub_Stars](https://img.shields.io/github/stars/buildingopen/opengtm?style=social&color=white)](https://github.com/buildingopen/opengtm/stargazers) | **[Sales Intelligence]** MIT-licensed open-source GTM platform combining lead discovery, AI research, and CRM sync. |
+| **[keelead](https://github.com/Atum246/keelead)** | [![GitHub_Stars](https://img.shields.io/github/stars/Atum246/keelead?style=social&color=white)](https://github.com/Atum246/keelead/stargazers) | **[Sales Intelligence]** AI-powered lead-generation platform aggregating 62 public and premium data sources with MCP support. |
+| **[openleads](https://github.com/Samyrrrrrr990/openleads)** | [![GitHub_Stars](https://img.shields.io/github/stars/Samyrrrrrr990/openleads?style=social&color=white)](https://github.com/Samyrrrrrr990/openleads/stargazers) | **[Sales Intelligence]** Open-source Apollo/Hunter alternative using natural language search across public sources. |
+| **[OpenProspector](https://github.com/clawnify/OpenProspector)** | [![GitHub_Stars](https://img.shields.io/github/stars/clawnify/OpenProspector?style=social&color=white)](https://github.com/clawnify/OpenProspector/stargazers) | **[Lead Enrichment]** Open-source Clay-style multi-provider lead enrichment layer using personal API keys. |
+| **[lead-pipeline](https://github.com/AI-Invention/lead-pipeline)** | [![GitHub_Stars](https://img.shields.io/github/stars/AI-Invention/lead-pipeline?style=social&color=white)](https://github.com/AI-Invention/lead-pipeline/stargazers) | **[Sales Pipeline]** MIT-licensed automated sales pipeline with Google Maps scraper, Sheets CRM, and outreach. |
+| **[lodgely](https://github.com/vidual-labs/lodgely)** | [![GitHub_Stars](https://img.shields.io/github/stars/vidual-labs/lodgely?style=social&color=white)](https://github.com/vidual-labs/lodgely/stargazers) | **[Lead Discovery]** Open-source lead generation engine tailored for hospitality and short-term rental properties. |
+| **[lead-research-agent](https://github.com/mcvalosborne/lead-research-agent)** | [![GitHub_Stars](https://img.shields.io/github/stars/mcvalosborne/lead-research-agent?style=social&color=white)](https://github.com/mcvalosborne/lead-research-agent/stargazers) | **[AI Sales Research]** Autonomous AI research agent that queries web sources, extracts data, and populates CRM. |
+| **[salesIQ-intelligence-community](https://github.com/SalesIQ/salesIQ-intelligence-community)** | [![GitHub_Stars](https://img.shields.io/github/stars/SalesIQ/salesIQ-intelligence-community?style=social&color=white)](https://github.com/SalesIQ/salesIQ-intelligence-community/stargazers) | **[Sales Intelligence]** AGPLv3 AI-powered B2B sales intelligence platform with ICP scoring, AI research, and outreach. |
+| **[ai-sales-lead-enrichment-crm-pipeline](https://github.com/Supreme-jay/ai-sales-lead-enrichment-crm-pipeline)** | [![GitHub_Stars](https://img.shields.io/github/stars/Supreme-jay/ai-sales-lead-enrichment-crm-pipeline?style=social&color=white)](https://github.com/Supreme-jay/ai-sales-lead-enrichment-crm-pipeline/stargazers) | **[Sales Pipeline]** n8n-based AI sales lead intake, company research, and CRM sync workflow. |
+| **[leadgen](https://github.com/Dukotah/leadgen)** | [![GitHub_Stars](https://img.shields.io/github/stars/Dukotah/leadgen?style=social&color=white)](https://github.com/Dukotah/leadgen/stargazers) | **[Lead Discovery]** Python-based lead generation script for automating localized prospect searches. |
 
 ---
 
@@ -200,7 +200,7 @@ This is the most important section for anyone trying to build a self-hosted alte
 
 
 
-# 1. SalesIQ [![GitHub stars](https://img.shields.io/github/stars/SalesIQ/salesIQ-intelligence-community?style=social&color=white)](https://github.com/SalesIQ/salesIQ-intelligence-community/stargazers)
+# 1. SalesIQ [![GitHub_Stars](https://img.shields.io/github/stars/SalesIQ/salesIQ-intelligence-community?style=social&color=white)](https://github.com/SalesIQ/salesIQ-intelligence-community/stargazers)
 
 
 
@@ -290,7 +290,7 @@ This is one of the most interesting current projects for users looking for an **
 
 
 
-# 2. OpenLeads [![GitHub stars](https://img.shields.io/github/stars/Samyrrrrrr990/openleads?style=social&color=white)](https://github.com/Samyrrrrrr990/openleads/stargazers)
+# 2. OpenLeads [![GitHub_Stars](https://img.shields.io/github/stars/Samyrrrrrr990/openleads?style=social&color=white)](https://github.com/Samyrrrrrr990/openleads/stargazers)
 
 
 
@@ -364,7 +364,7 @@ Outreach
 
 
 
-# 3. KeeLead [![GitHub stars](https://img.shields.io/github/stars/Atum246/keelead?style=social&color=white)](https://github.com/Atum246/keelead/stargazers)
+# 3. KeeLead [![GitHub_Stars](https://img.shields.io/github/stars/Atum246/keelead?style=social&color=white)](https://github.com/Atum246/keelead/stargazers)
 
 
 
@@ -426,7 +426,7 @@ This makes it particularly interesting for building a **composable sales-intelli
 
 
 
-# 4. OpenProspector [![GitHub stars](https://img.shields.io/github/stars/clawnify/OpenProspector?style=social&color=white)](https://github.com/clawnify/OpenProspector/stargazers)
+# 4. OpenProspector [![GitHub_Stars](https://img.shields.io/github/stars/clawnify/OpenProspector?style=social&color=white)](https://github.com/clawnify/OpenProspector/stargazers)
 
 
 
@@ -474,7 +474,7 @@ It is positioned as an open-source Clay-style enrichment layer. ([GitHub](https:
 
 
 
-# 5. OpenGTM [![GitHub stars](https://img.shields.io/github/stars/buildingopen/opengtm?style=social&color=white)](https://github.com/buildingopen/opengtm/stargazers)
+# 5. OpenGTM [![GitHub_Stars](https://img.shields.io/github/stars/buildingopen/opengtm?style=social&color=white)](https://github.com/buildingopen/opengtm/stargazers)
 
 
 
@@ -542,7 +542,7 @@ It uses AI and web-grounded research to generate sales prospects. ([GitHub](http
 
 
 
-# 6. LeadPipeline [![GitHub stars](https://img.shields.io/github/stars/AI-Invention/lead-pipeline?style=social&color=white)](https://github.com/AI-Invention/lead-pipeline/stargazers)
+# 6. LeadPipeline [![GitHub_Stars](https://img.shields.io/github/stars/AI-Invention/lead-pipeline?style=social&color=white)](https://github.com/AI-Invention/lead-pipeline/stargazers)
 
 
 
@@ -608,7 +608,7 @@ It is especially useful for small-business and local-business prospecting. ([Git
 
 
 
-# 7. Lead Research Agent [![GitHub stars](https://img.shields.io/github/stars/mcvalosborne/lead-research-agent?style=social&color=white)](https://github.com/mcvalosborne/lead-research-agent/stargazers)
+# 7. Lead Research Agent [![GitHub_Stars](https://img.shields.io/github/stars/mcvalosborne/lead-research-agent?style=social&color=white)](https://github.com/mcvalosborne/lead-research-agent/stargazers)
 
 
 
@@ -684,7 +684,7 @@ CRM
 
 
 
-# 8. AI Sales Lead Enrichment & CRM Pipeline [![GitHub stars](https://img.shields.io/github/stars/Supreme-jay/ai-sales-lead-enrichment-crm-pipeline?style=social&color=white)](https://github.com/Supreme-jay/ai-sales-lead-enrichment-crm-pipeline/stargazers)
+# 8. AI Sales Lead Enrichment & CRM Pipeline [![GitHub_Stars](https://img.shields.io/github/stars/Supreme-jay/ai-sales-lead-enrichment-crm-pipeline?style=social&color=white)](https://github.com/Supreme-jay/ai-sales-lead-enrichment-crm-pipeline/stargazers)
 
 
 
@@ -724,7 +724,7 @@ It is useful as a reference architecture rather than a full ZoomInfo replacement
 
 
 
-## Leadgen [![GitHub stars](https://img.shields.io/github/stars/Dukotah/leadgen?style=social&color=white)](https://github.com/Dukotah/leadgen/stargazers)
+## Leadgen [![GitHub_Stars](https://img.shields.io/github/stars/Dukotah/leadgen?style=social&color=white)](https://github.com/Dukotah/leadgen/stargazers)
 
 
 
@@ -776,7 +776,7 @@ It supports multiple public sources including OpenStreetMap, Overture, Foursquar
 
 
 
-## Lodgely [![GitHub stars](https://img.shields.io/github/stars/vidual-labs/lodgely?style=social&color=white)](https://github.com/vidual-labs/lodgely/stargazers)
+## Lodgely [![GitHub_Stars](https://img.shields.io/github/stars/vidual-labs/lodgely?style=social&color=white)](https://github.com/vidual-labs/lodgely/stargazers)
 
 
 
@@ -832,7 +832,7 @@ It deliberately positions itself as the layer **before** a CRM rather than as a 
 
 
 
-## Apify CLI [![GitHub stars](https://img.shields.io/github/stars/apify/apify-cli?style=social&color=white)](https://github.com/apify/apify-cli/stargazers)
+## Apify CLI [![GitHub_Stars](https://img.shields.io/github/stars/apify/apify-cli?style=social&color=white)](https://github.com/apify/apify-cli/stargazers)
 
 
 
@@ -876,7 +876,7 @@ CRM
 
 
 
-## Scrapy [![GitHub stars](https://img.shields.io/github/stars/scrapy/scrapy?style=social&color=white)](https://github.com/scrapy/scrapy/stargazers)
+## Scrapy [![GitHub_Stars](https://img.shields.io/github/stars/scrapy/scrapy?style=social&color=white)](https://github.com/scrapy/scrapy/stargazers)
 
 
 
@@ -908,7 +908,7 @@ Useful for custom:
 
 
 
-## Crawlee [![GitHub stars](https://img.shields.io/github/stars/apify/crawlee?style=social&color=white)](https://github.com/apify/crawlee/stargazers)
+## Crawlee [![GitHub_Stars](https://img.shields.io/github/stars/apify/crawlee?style=social&color=white)](https://github.com/apify/crawlee/stargazers)
 
 
 
@@ -1016,7 +1016,7 @@ A sales-intelligence system needs somewhere to store the resulting intelligence.
 
 
 
-## Twenty [![GitHub stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers)
+## Twenty [![GitHub_Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers)
 
 
 
@@ -1050,7 +1050,7 @@ Useful for:
 
 
 
-## EspoCRM [![GitHub stars](https://img.shields.io/github/stars/espocrm/espocrm?style=social&color=white)](https://github.com/espocrm/espocrm/stargazers)
+## EspoCRM [![GitHub_Stars](https://img.shields.io/github/stars/espocrm/espocrm?style=social&color=white)](https://github.com/espocrm/espocrm/stargazers)
 
 
 
@@ -1066,7 +1066,7 @@ Mature open-source CRM.
 
 
 
-## SuiteCRM [![GitHub stars](https://img.shields.io/github/stars/SuiteCRM/SuiteCRM?style=social&color=white)](https://github.com/SuiteCRM/SuiteCRM/stargazers)
+## SuiteCRM [![GitHub_Stars](https://img.shields.io/github/stars/SuiteCRM/SuiteCRM?style=social&color=white)](https://github.com/SuiteCRM/SuiteCRM/stargazers)
 
 
 
@@ -1082,7 +1082,7 @@ Enterprise-oriented open-source CRM.
 
 
 
-## Odoo [![GitHub stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)
+## Odoo [![GitHub_Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)
 
 
 
@@ -1098,7 +1098,7 @@ Broad business platform with CRM functionality.
 
 
 
-## ERPNext [![GitHub stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)
+## ERPNext [![GitHub_Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)
 
 
 
@@ -1126,7 +1126,7 @@ Open-source ERP with:
 
 
 
-## Frappe CRM [![GitHub stars](https://img.shields.io/github/stars/frappe/crm?style=social&color=white)](https://github.com/frappe/crm/stargazers)
+## Frappe CRM [![GitHub_Stars](https://img.shields.io/github/stars/frappe/crm?style=social&color=white)](https://github.com/frappe/crm/stargazers)
 
 
 
@@ -1142,7 +1142,7 @@ Modern open-source CRM built on the Frappe ecosystem.
 
 
 
-## Monica [![GitHub stars](https://img.shields.io/github/stars/monicahq/monica?style=social&color=white)](https://github.com/monicahq/monica/stargazers)
+## Monica [![GitHub_Stars](https://img.shields.io/github/stars/monicahq/monica?style=social&color=white)](https://github.com/monicahq/monica/stargazers)
 
 
 
@@ -1158,7 +1158,7 @@ Primarily a personal CRM, but useful for contact-management patterns.
 
 
 
-## Dolibarr [![GitHub stars](https://img.shields.io/github/stars/Dolibarr/dolibarr?style=social&color=white)](https://github.com/Dolibarr/dolibarr/stargazers)
+## Dolibarr [![GitHub_Stars](https://img.shields.io/github/stars/Dolibarr/dolibarr?style=social&color=white)](https://github.com/Dolibarr/dolibarr/stargazers)
 
 
 
@@ -1284,7 +1284,7 @@ Confidence
 
 
 
-## Scrapy [![GitHub stars](https://img.shields.io/github/stars/scrapy/scrapy?style=social&color=white)](https://github.com/scrapy/scrapy/stargazers)
+## Scrapy [![GitHub_Stars](https://img.shields.io/github/stars/scrapy/scrapy?style=social&color=white)](https://github.com/scrapy/scrapy/stargazers)
 
 
 
@@ -1296,7 +1296,7 @@ Excellent for custom crawling.
 
 
 
-## Crawlee [![GitHub stars](https://img.shields.io/github/stars/apify/crawlee?style=social&color=white)](https://github.com/apify/crawlee/stargazers)
+## Crawlee [![GitHub_Stars](https://img.shields.io/github/stars/apify/crawlee?style=social&color=white)](https://github.com/apify/crawlee/stargazers)
 
 
 
@@ -1308,7 +1308,7 @@ Useful for scalable crawling.
 
 
 
-## Playwright [![GitHub stars](https://img.shields.io/github/stars/microsoft/playwright?style=social&color=white)](https://github.com/microsoft/playwright/stargazers)
+## Playwright [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/playwright?style=social&color=white)](https://github.com/microsoft/playwright/stargazers)
 
 
 
@@ -1320,7 +1320,7 @@ Useful when websites require browser execution.
 
 
 
-## Selenium [![GitHub stars](https://img.shields.io/github/stars/SeleniumHQ/selenium?style=social&color=white)](https://github.com/SeleniumHQ/selenium/stargazers)
+## Selenium [![GitHub_Stars](https://img.shields.io/github/stars/SeleniumHQ/selenium?style=social&color=white)](https://github.com/SeleniumHQ/selenium/stargazers)
 
 
 
@@ -1332,7 +1332,7 @@ Browser automation and data extraction.
 
 
 
-## Beautiful Soup [![GitHub stars](https://img.shields.io/github/stars/wention/BeautifulSoup4?style=social&color=white)](https://github.com/wention/BeautifulSoup4/stargazers)
+## Beautiful Soup [![GitHub_Stars](https://img.shields.io/github/stars/wention/BeautifulSoup4?style=social&color=white)](https://github.com/wention/BeautifulSoup4/stargazers)
 
 
 
@@ -1344,7 +1344,7 @@ HTML parsing.
 
 
 
-## trafilatura [![GitHub stars](https://img.shields.io/github/stars/adbar/trafilatura?style=social&color=white)](https://github.com/adbar/trafilatura/stargazers)
+## trafilatura [![GitHub_Stars](https://img.shields.io/github/stars/adbar/trafilatura?style=social&color=white)](https://github.com/adbar/trafilatura/stargazers)
 
 
 
@@ -1356,7 +1356,7 @@ Useful for extracting clean web content.
 
 
 
-## Newspaper [![GitHub stars](https://img.shields.io/github/stars/codelucas/newspaper?style=social&color=white)](https://github.com/codelucas/newspaper/stargazers)
+## Newspaper [![GitHub_Stars](https://img.shields.io/github/stars/codelucas/newspaper?style=social&color=white)](https://github.com/codelucas/newspaper/stargazers)
 
 
 
@@ -1672,7 +1672,7 @@ Account Score
 
 
 
-## n8n [![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)
+## n8n [![GitHub_Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)
 
 
 
@@ -1716,7 +1716,7 @@ Outreach
 
 
 
-## Node-RED [![GitHub stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers)
+## Node-RED [![GitHub_Stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers)
 
 
 
@@ -1732,7 +1732,7 @@ Useful for event-driven GTM workflows.
 
 
 
-## Temporal [![GitHub stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers)
+## Temporal [![GitHub_Stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers)
 
 
 
@@ -1792,7 +1792,7 @@ Track Reply
 
 
 
-## Windmill [![GitHub stars](https://img.shields.io/github/stars/windmill-labs/windmill?style=social&color=white)](https://github.com/windmill-labs/windmill/stargazers)
+## Windmill [![GitHub_Stars](https://img.shields.io/github/stars/windmill-labs/windmill?style=social&color=white)](https://github.com/windmill-labs/windmill/stargazers)
 
 
 
@@ -1808,7 +1808,7 @@ Open-source workflow/developer automation platform useful for custom sales-data 
 
 
 
-## Kestra [![GitHub stars](https://img.shields.io/github/stars/kestra-io/kestra?style=social&color=white)](https://github.com/kestra-io/kestra/stargazers)
+## Kestra [![GitHub_Stars](https://img.shields.io/github/stars/kestra-io/kestra?style=social&color=white)](https://github.com/kestra-io/kestra/stargazers)
 
 
 
@@ -1836,7 +1836,7 @@ Potential open-source components include:
 
 
 
-## Ollama [![GitHub stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers)
+## Ollama [![GitHub_Stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers)
 
 
 
@@ -1848,7 +1848,7 @@ Local LLM execution.
 
 
 
-## vLLM [![GitHub stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers)
+## vLLM [![GitHub_Stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers)
 
 
 
@@ -1860,7 +1860,7 @@ High-performance inference server.
 
 
 
-## LlamaIndex [![GitHub stars](https://img.shields.io/github/stars/run-llama/llama_index?style=social&color=white)](https://github.com/run-llama/llama_index/stargazers)
+## LlamaIndex [![GitHub_Stars](https://img.shields.io/github/stars/run-llama/llama_index?style=social&color=white)](https://github.com/run-llama/llama_index/stargazers)
 
 
 
@@ -1872,7 +1872,7 @@ Useful for connecting AI models to company/lead data.
 
 
 
-## LangChain [![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white)](https://github.com/langchain-ai/langchain/stargazers)
+## LangChain [![GitHub_Stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white)](https://github.com/langchain-ai/langchain/stargazers)
 
 
 
@@ -1884,7 +1884,7 @@ Useful for building research agents and workflows.
 
 
 
-## Haystack [![GitHub stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=social&color=white)](https://github.com/deepset-ai/haystack/stargazers)
+## Haystack [![GitHub_Stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=social&color=white)](https://github.com/deepset-ai/haystack/stargazers)
 
 
 
@@ -1964,7 +1964,7 @@ Personalized Message
 
 
 
-## PostgreSQL [![GitHub stars](https://img.shields.io/github/stars/postgres/postgres?style=social&color=white)](https://github.com/postgres/postgres/stargazers)
+## PostgreSQL [![GitHub_Stars](https://img.shields.io/github/stars/postgres/postgres?style=social&color=white)](https://github.com/postgres/postgres/stargazers)
 
 
 
@@ -1976,7 +1976,7 @@ Primary transactional database.
 
 
 
-## ClickHouse [![GitHub stars](https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=social&color=white)](https://github.com/ClickHouse/ClickHouse/stargazers)
+## ClickHouse [![GitHub_Stars](https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=social&color=white)](https://github.com/ClickHouse/ClickHouse/stargazers)
 
 
 
@@ -1988,7 +1988,7 @@ Excellent for large-scale sales/event analytics.
 
 
 
-## DuckDB [![GitHub stars](https://img.shields.io/github/stars/duckdb/duckdb?style=social&color=white)](https://github.com/duckdb/duckdb/stargazers)
+## DuckDB [![GitHub_Stars](https://img.shields.io/github/stars/duckdb/duckdb?style=social&color=white)](https://github.com/duckdb/duckdb/stargazers)
 
 
 
@@ -2000,7 +2000,7 @@ Excellent for local analytical processing.
 
 
 
-## Apache Spark [![GitHub stars](https://img.shields.io/github/stars/apache/spark?style=social&color=white)](https://github.com/apache/spark/stargazers)
+## Apache Spark [![GitHub_Stars](https://img.shields.io/github/stars/apache/spark?style=social&color=white)](https://github.com/apache/spark/stargazers)
 
 
 
@@ -2012,7 +2012,7 @@ Large-scale data processing.
 
 
 
-## Apache Kafka [![GitHub stars](https://img.shields.io/github/stars/apache/kafka?style=social&color=white)](https://github.com/apache/kafka/stargazers)
+## Apache Kafka [![GitHub_Stars](https://img.shields.io/github/stars/apache/kafka?style=social&color=white)](https://github.com/apache/kafka/stargazers)
 
 
 
@@ -2024,7 +2024,7 @@ Event streaming.
 
 
 
-## Redis [![GitHub stars](https://img.shields.io/github/stars/redis/redis?style=social&color=white)](https://github.com/redis/redis/stargazers)
+## Redis [![GitHub_Stars](https://img.shields.io/github/stars/redis/redis?style=social&color=white)](https://github.com/redis/redis/stargazers)
 
 
 
@@ -2036,7 +2036,7 @@ Caching, queues and real-time state.
 
 
 
-## MinIO [![GitHub stars](https://img.shields.io/github/stars/minio/minio?style=social&color=white)](https://github.com/minio/minio/stargazers)
+## MinIO [![GitHub_Stars](https://img.shields.io/github/stars/minio/minio?style=social&color=white)](https://github.com/minio/minio/stargazers)
 
 
 
@@ -2048,7 +2048,7 @@ Object storage.
 
 
 
-## OpenSearch [![GitHub stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers)
+## OpenSearch [![GitHub_Stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers)
 
 
 
