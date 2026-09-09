@@ -332,67 +332,36 @@ These are commercial, hosted or enterprise-oriented sales-intelligence and prosp
 
 
 
-| Platform                                            | Primary Model                 | Main Strength                            |
-
-| --------------------------------------------------- | ----------------------------- | ---------------------------------------- |
-
-| [ZoomInfo](https://www.zoominfo.com/)               | Enterprise sales intelligence | Large B2B data + intent                  |
-
-| [Apollo](https://www.apollo.io/)                    | Prospecting + engagement      | Database + outbound sequencing           |
-
-| [Cognism](https://www.cognism.com/)                 | B2B intelligence              | Global contact data + phone intelligence |
-
-| [Lusha](https://www.lusha.com/)                     | Prospecting                   | Contact/company enrichment               |
-
-| [LeadIQ](https://leadiq.com/)                       | Prospecting                   | LinkedIn prospecting + CRM enrichment    |
-
-| [Seamless.AI](https://seamless.ai/)                 | Contact intelligence          | Real-time contact discovery              |
-
-| [UpLead](https://www.uplead.com/)                   | B2B database                  | Verified B2B contacts                    |
-
-| [Adapt.io](https://www.adapt.io/)                   | Lead database                 | Contact/company discovery                |
-
-| [Kaspr](https://kaspr.io/)                          | LinkedIn prospecting          | LinkedIn contact discovery               |
-
-| [RocketReach](https://rocketreach.co/)              | Contact lookup                | Person/company lookup                    |
-
-| [Clay](https://www.clay.com/)                       | Data enrichment               | Multi-provider enrichment workflows      |
-
-| [Hunter](https://hunter.io/)                        | Email intelligence            | Email discovery + verification           |
-
-| [Clearbit](https://www.clearbit.com/)               | Enrichment                    | Company/person enrichment                |
-
-| [6sense](https://6sense.com/)                       | Intent/ABM                    | Buying signals + account intelligence    |
-
-| [Demandbase](https://www.demandbase.com/)           | ABM intelligence              | Account identification + intent          |
-
-| [Lead411](https://www.lead411.com/)                 | Sales intelligence            | Contact data + intent                    |
-
-| [LeadFuze](https://www.leadfuze.com/)               | Lead generation               | Automated prospect discovery             |
-
-| [People Data Labs](https://www.peopledatalabs.com/) | Data API                      | Person/company datasets                  |
-
-| [Crunchbase](https://www.crunchbase.com/)           | Company intelligence          | Companies + funding                      |
-
-| [Dealroom](https://dealroom.co/)                    | Company intelligence          | Startups + funding + ecosystem           |
-
-| [BuiltWith](https://builtwith.com/)                 | Technographics                | Technology-stack intelligence            |
-
-| [Wappalyzer](https://www.wappalyzer.com/)           | Technographics                | Website technology detection             |
-
-| [Similarweb](https://www.similarweb.com/)           | Web intelligence              | Traffic + digital signals                |
-
-| [Bombora](https://bombora.com/)                     | Intent data                   | B2B intent signals                       |
-
-| [Common Room](https://www.commonroom.io/)           | GTM intelligence              | Product/community signals                |
-
-| [Leadfeeder](https://www.leadfeeder.com/)           | Website intelligence          | Anonymous visitor identification         |
-
-| [6sense](https://6sense.com/)                       | Predictive intelligence       | Account intent + ABM                     |
-
-| [PhantomBuster](https://phantombuster.com/)         | Prospecting automation        | Social/web automation                    |
-
-| [Apify](https://apify.com/)                         | Data extraction               | Web scraping infrastructure              |
+| Platform | Primary Model | Main Strength | Pricing | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| [ZoomInfo](https://www.zoominfo.com/) | Enterprise sales intelligence | Large B2B data + intent | **$14,995/year** (Professional plan, 1–3 seats; annual contract required) | **ZoomInfo Lite**: Forever-free plan with 10 credits/month (or 25 credits/month with Community contact sharing); **7-day free trial** with ~200 credits upon demo request |
+| [Apollo](https://www.apollo.io/) | Prospecting + engagement | Database + outbound sequencing | **$59/user/month** ($49/user/mo billed annually) for Basic plan | **Forever-free plan**: 10 export credits/month, 5 mobile credits/month, unlimited email reveals (capped at 250 emails/day), and 2 active sequences (plus 14-day free trial on paid plans) |
+| [Cognism](https://www.cognism.com/) | B2B intelligence | Global contact data + phone intelligence | **~$15,000/year** (Grow plan base platform fee ~$1,500/user/year; annual contract required) | **Free trial**: 25–50 verified B2B contact leads provided during a guided proof-of-concept / demo call (no permanent free tier) |
+| [Lusha](https://www.lusha.com/) | Prospecting | Contact/company enrichment | **$49.90/user/month** ($37.45/user/mo billed annually) for Starter plan (4,800 credits/year) | **Forever-free plan**: 40 credits/month, 1 user seat, Chrome extension, and basic prospecting filters (1 credit/email, 5 credits/phone) |
+| [LeadIQ](https://leadiq.com/) | Prospecting | LinkedIn prospecting + CRM enrichment | **$45/user/month** ($36/user/mo billed annually) for Essential plan | **Forever-free plan**: 50 Universal Credits/month, 1 user seat, and Chrome extension capture (or 30-day free trial on paid plans) |
+| [Seamless.AI](https://seamless.ai/) | Contact intelligence | Real-time contact discovery | **$147/user/month** (Basic plan, billed annually) | **Forever-free tier**: 50 lifetime contact credits upon signup (one-time allocation, non-replenishing, access to Chrome extension and search) |
+| [UpLead](https://www.uplead.com/) | B2B database | Verified B2B contacts | **$99/month** ($74/month billed annually) for Essentials plan (170 credits/month) | **7-day free trial**: 5 verified contact credits, full access to search and Chrome extension (no permanent free plan) |
+| [Adapt.io](https://www.adapt.io/) | Lead database | Contact/company discovery | **$49/month** ($39/month billed annually) for Starter plan (500 email & enrichment credits/month) | **Forever-free plan**: 25 email credits/month and 25 enrichment credits/month (capped at 25 contacts/day; no CSV export) |
+| [Kaspr](https://kaspr.io/) | LinkedIn prospecting | LinkedIn contact discovery | **$65/user/month** (~$49/user/mo / €45/mo billed annually) for Starter plan (1,200 phone credits/year) | **Forever-free plan**: 5 phone credits/month, 5 direct email credits/month, 10 export credits/month, and unlimited B2B email addresses with LinkedIn extension |
+| [RocketReach](https://rocketreach.co/) | Contact lookup | Person/company lookup | **$53/month** ($39/month billed annually at $468/year) for Essentials plan (1,200 lookups/year) | **Free trial account**: 5 free lifetime lookup credits upon registration (no permanent monthly credits; 1 credit = 1 contact lookup) |
+| [Clay](https://www.clay.com/) | Data enrichment | Multi-provider enrichment workflows | **$149/month** ($134/month billed annually) for Starter plan (2,000 credits/month) | **Forever-free plan**: 100 Data Credits/month and 500 Actions/month, 1 user seat (plus 14-day free trial with 1,000 credits on paid plans) |
+| [Hunter](https://hunter.io/) | Email intelligence | Email discovery + verification | **$49/month** ($34/month billed annually) for Starter plan (2,000 credits/month) | **Forever-free plan**: 50 search/verification credits/month, 1 connected email account, campaigns up to 500 recipients |
+| [Clearbit](https://www.clearbit.com/) | Enrichment | Company/person enrichment | **$50/month** ($45/month billed annually) for 100 Breeze Intelligence enrichment credits | **14-day free trial** via HubSpot Smart CRM / Breeze Intelligence with complimentary test credits (legacy standalone free tier retired) |
+| [6sense](https://6sense.com/) | Intent/ABM & predictive intelligence | Buying signals + account intelligence + predictive ABM | **~$10,000/year** (Revenue AI / Sales Intelligence starter tier for small teams; enterprise ABM contracts typically $60,000+/year) | **Forever-free plan**: 50 data credits/month, Buyer Discovery, company and contact lookup, and Chrome extension |
+| [Demandbase](https://www.demandbase.com/) | ABM intelligence | Account identification + intent | **~$24,000/year** (~$2,000/month, annual commitment for entry ABM platform) | **Demandbase One Account ID Free Edition**: Identifies website account visitors for up to 5,000 monthly unique visitors; or **30-day proof-of-concept trial** via sales demo |
+| [Lead411](https://www.lead411.com/) | Sales intelligence | Contact data + intent | **$99/user/month** ($75/user/month billed annually at $899/year) for Basic Plus Unlimited | **7-day free trial**: 50 free export verified contact leads, full search filters, and Chrome extension (no permanent free plan) |
+| [LeadFuze](https://www.leadfuze.com/) | Lead generation | Automated prospect discovery | **$147/month** (Starter plan with 500 lead credits/month; scaling to $1,500/month enterprise data licenses) | **Free trial**: 25 free lead credits upon registration to test contact discovery and search filters |
+| [People Data Labs](https://www.peopledatalabs.com/) | Data API | Person/company datasets | **$98/month** ($78/month billed annually at $940/year) for Pro tier (350 person enrichments/month) | **Forever-free sandbox plan**: 100 API records/month for testing and development (sensitive fields like email/phone obfuscated) |
+| [Crunchbase](https://www.crunchbase.com/) | Company intelligence | Companies + funding | **$99/user/month** ($49/user/month billed annually at $588/year) for Crunchbase Pro | **Forever-free plan**: Basic company profiles and search capped at 5 results per query; plus **7-day free trial** of Pro with full search and exports |
+| [Dealroom](https://dealroom.co/) | Company intelligence | Startups + funding + ecosystem | **€12,000/year** (~€1,000/month billed annually) for Premium plan (10,000 export credits) | **3-day free trial** of Premium with 50 export credits (no credit card required); basic open directory preview capped at 25 results |
+| [BuiltWith](https://builtwith.com/) | Technographics | Technology-stack intelligence | **$295/month** ($245.83/month billed annually at $2,950/year) for Basic plan (or $12/month / $144/year for single-site lookup Basic) | **Forever-free tier**: Unlimited single-website technology lookups via website and free API tier (1 request/sec rate limit, up to 10 lookups/day without bulk lists) |
+| [Wappalyzer](https://www.wappalyzer.com/) | Technographics | Website technology detection | **$250/month** ($200/month billed annually at $2,400/year) for Pro plan (5,000 lookups/month) | **Forever-free plan**: 50 technology lookups/month, 50 email verifications/month, 5 website alerts, and free browser extension |
+| [Similarweb](https://www.similarweb.com/) | Web intelligence | Traffic + digital signals | **$199/month** ($125/month billed annually at $1,500/year) for Starter plan (1 seat, 3 months historical traffic data) | **7-day free trial**: Capped at 15 actions/day and 3 months historical data; plus free browser extension for basic traffic overview |
+| [Bombora](https://bombora.com/) | Intent data | B2B intent signals | **~$25,000/year** (~$2,083/month billed annually) for Company Surge Starter (up to 25 intent topics) | **14-day proof-of-concept trial**: Custom intent surge report covering up to 10 selected intent topics via sales consultation (no permanent free tier) |
+| [Common Room](https://www.commonroom.io/) | GTM intelligence | Product/community signals | **$2,500/month** (billed annually at $30,000/year) for Essential plan (5 seats, 100,000 contacts, 2,500 prospector credits) | **14-day free trial**: Guided sandbox trial with up to 500 prospector credits via sales demo (legacy free plan retired) |
+| [Leadfeeder](https://www.leadfeeder.com/) | Website intelligence | Anonymous visitor identification | **€99/month** (~$105/month; €79/month billed annually at €948/year) for Discover plan (1,000 identified companies/month) | **Forever-free Lite plan**: Tracks up to the last 100 identified companies with 7 days of visitor data; plus **14-day full free trial** of premium features |
+| [PhantomBuster](https://phantombuster.com/) | Prospecting automation | Social/web automation | **$69/month** ($56/month billed annually at $672/year) for Start plan (20 execution hours/month, 5 slots, 500 email credits) | **14-day free trial**: 2 hours execution time, 5 phantom slots, 50 email credits; downgrades to **Free plan**: 30 min execution time/month, 1 slot, 10-row export limit |
+| [Apify](https://apify.com/) | Data extraction | Web scraping infrastructure | **$29/month** (Starter plan; includes $29 prepaid usage, 32 concurrent runs) | **Forever-free plan**: $5/month prepaid compute/platform usage credits, 25 concurrent runs, 16 GB RAM per run, and free community scrapers |
 
 
 
