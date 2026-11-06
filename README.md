@@ -102,6 +102,7 @@ Below is a curated comparison of category-leading Sales Intelligence and B2B Pro
 | [RocketReach](https://rocketreach.co/) | **~$25M–$30M Est. Valuation** (~$10M–$15M ARR, Bootstrapped) | Contact lookup | Person/company lookup | **$53/month** ($39/month billed annually at $468/year) for Essentials plan (1,200 lookups/year) | **Free trial account**: 5 free lifetime lookup credits upon registration (no permanent monthly credits; 1 credit = 1 contact lookup) |
 | [LeadFuze](https://www.leadfuze.com/) | **~$25M Est. Valuation** (~$5M–$8M ARR, Bootstrapped) | Lead generation | Automated prospect discovery | **$147/month** (Starter plan with 500 lead credits/month; scaling to $1,500/month enterprise data licenses) | **Free trial**: 25 free lead credits upon registration to test contact discovery and search filters |
 | [Wappalyzer](https://www.wappalyzer.com/) | **~$20M Est. Valuation** (~$3M–$6M ARR, Bootstrapped) | Technographics | Website technology detection | **$250/month** ($200/month billed annually at $2,400/year) for Pro plan (5,000 lookups/month) | **Forever-free plan**: 50 technology lookups/month, 50 email verifications/month, 5 website alerts, and free browser extension |
+| [Datacircle](https://datacircle.dev) | **Early-stage** | GTM API benchmark | Find the best GTM APIs. We benchmark all the GTM APIs and we put the results on our website. | **No price**: the sheet is on the website for anyone | **No sign-up**: download every plan as CSV, JSON or a zip |
 
 
 
